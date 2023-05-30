@@ -1,0 +1,543 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@700&family=Roboto:ital,wght@0,100;1,100&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.desktop-logo {
+    display: none;
+}
+.desktop-see-prog {
+    display: none;
+}
+.speaker2 {
+    display: none;
+}
+.container {
+    width: 100%;
+    font-family: "Lato", sans-serif;
+}
+.menu-logo {
+    /* border: 1px solid black; */
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+    width: 100%;
+    height: 20%;
+    box-shadow: 0 0 5px gray;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+}
+.pop-menu {
+    width: 30vw;
+    height: 100vh;
+    background-color: #3b3e45;
+    position: fixed;
+    display: none;
+    opacity: 0.95;
+    border-top-right-radius: 15px;
+    left: 0;
+    top: 0;
+}
+.pop-menu li a {
+    color: #ff5438;
+    text-decoration: none;
+}
+.pop-menu-show {
+    display: block;
+}
+.pop-menu ul {
+    margin-top: 8vh;
+    margin-left: 2vw;
+    list-style: none;
+    line-height: 6vh;
+    color: white;
+}
+#menu-close {
+    position: absolute;
+    right: 2vw;
+    top: 3vh;
+    color: white;
+}
+
+.first-section {
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.first-writeup {
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 20%;
+}
+.first-writeup > h4 {
+    color: #ff5438;
+    margin-bottom: 1%;
+}
+.first-writeup > h1 {
+    font-size: 5vw;
+    font-weight: 900;
+    color: red;
+}
+.second-write-up {
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 3vh;
+    color: #515151;
+    /* border: 1px solid black; */
+}
+.third-writeup {
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 3%;
+}
+.third-writeup > h1 {
+    font-weight: 900;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.third-writeup > h3 {
+    color: #868686;
+}
+.main-icon {
+    /* border: 1px solid black; */
+    width: 35%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.main-icon > p {
+    color: #ff5438;
+    margin-left: 3%;
+}
+.main-program {
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    text-align: center;
+    background-color: #282b32;
+    /* border: 1px solid black; */
+}
+.main-program > h2 {
+    color: white;
+}
+.main-line {
+    width: 20%;
+    height: 1%;
+    background-color: #a04038;
+    margin-bottom: 2%;
+}
+.main-program1 {
+    width: 90%;
+    height: 10%;
+    margin: auto;
+    margin-bottom: 1%;
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #3b3e45;
+    padding-bottom: 2%;
+}
+.main-long-write {
+    color: white;
+}
+.main-program1 > p {
+    color: white;
+    font-size: 2vw;
+}
+.global-summit {
+    width: 60%;
+    height: 5%;
+    margin: auto;
+    background-color: #ff4f38;
+    color: white;
+    padding: 2.5vh 2vw;
+    margin-top: 5%;
+    /* border: 1px solid black; */
+}
+.featured-speakers {
+    width: 100%;
+    /* border: 1px solid black; */
+    padding-top: 4%;
+    text-align: center;
+}
+.featured-speakers > h3 {
+    font-size: 4vw;
+    font-weight: 400;
+}
+.featured-line {
+    width: 20%;
+    height: 0.5vh;
+    margin: auto;
+    margin-top: 3%;
+    background-color: #a04038;
+}
+.speaker1 {
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+}
+.speaker1-write {
+    width: 65%;
+    font-size: 2vw;
+    padding-top: 4%;
+    text-align: start;
+    /* border: 1px solid black; */
+}
+.speaker1-write > p {
+    margin-top: 2%;
+    color: #f78c89;
+}
+.speaker1-write > h4 {
+    margin-top: 3%;
+}
+.speaker-line {
+    width: 20%;
+    height: 0.5vh;
+    margin-top: 3%;
+    background-color: #d9d9d9;
+}
+.more-speakers {
+    width: 90%;
+    height: 6vh;
+    margin: auto;
+    margin-top: 6%;
+    border-radius: 3px;
+    padding-top: 2%;
+    margin-bottom: 4%;
+    box-shadow: 1px 1px 1px 1px gray;
+    /* border: 1px solid black; */
+}
+
+/* ABOUT */
+.hello-section {
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: auto;
+    text-align: center;
+    margin-top: 3%;
+}
+.hello-section > h3 {
+    color: #f78c89;
+}
+.hello-section > h1 {
+    color: red;
+    font-size: 5vw;
+    margin-top: 2%;
+    font-weight: 900;
+}
+.hello-write {
+    width: 90%;
+    margin: auto;
+    margin-top: 6%;
+    /* border: 1px solid black; */
+}
+.hello-write > p {
+    line-height: 25px;
+    text-align: center;
+}
+.hello-contact-div {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    background-color: #f7f7f8;
+    /* border: 1px solid black; */
+}
+.hello-contact {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+.hello-p {
+    color: #7a7a7a;
+    margin-bottom: 2%;
+}
+.creative-commons {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+    /* border: 1px solid black; */
+}
+.global-line {
+    width: 10%;
+    height: 0.2vh;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 3%;
+    background-color: #f78c89;
+}
+.logo-global {
+    color: #838383;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 4%;
+    /* border: 1px solid black; */
+}
+.about-logo {
+    /* margin-left: 25%; */
+    margin-top: 5%;
+    width: 100%;
+}
+.see-summit {
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+.see-summit > p {
+    margin-top: 4%;
+}
+.first-global {
+    /* border: 1px solid black; */
+    padding-top: 12%;
+    margin-top: 5%;
+    color: white;
+    background-color: #838383;
+    padding-bottom: 12%;
+}
+.first-global > h1 {
+    font-size: 5vw;
+    margin-bottom: 3%;
+}
+.first-footer {
+    width: 100%;
+    margin-top: 5%;
+    padding-top: 5%;
+    background-color: #414246;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+.first-footer > h2 {
+    color: white;
+}
+.footer-logos {
+    margin-top: 6%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.second-footer {
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+}
+.creative-common {
+    font-size: 3vw;
+    width: 40%;
+    /* border: 1px solid black; */
+}
+
+@media only screen and (min-width: 768px) {
+    .menu-logo {
+        display: none;
+    }
+    .pop-menu {
+        display: none;
+    }
+    .desktop-logo {
+        /* border: 1px solid black; */
+        display: flex;
+        width: 85%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .desk-logo {
+        width: 15%;
+        /* border: 1px solid black; */
+    }
+    .desktop-nav {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        width: 70%;
+        /* border: 1px solid black; */
+    }
+    .desktop-nav ul {
+        list-style: none;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        /* border: 1px solid black; */
+    }
+    .desktop-nav ul li a {
+        color: #ec4327;
+        text-decoration: none;
+    }
+    .desktop-nav ul button {
+        border: 1px solid #ec4327;
+        color: #ec4327;
+        padding: 1vh 2vw;
+        background-color: white;
+    }
+    .first-section {
+        width: 100%;
+    }
+    .first-writeup {
+        width: 60%;
+        margin-left: 10%;
+        margin-top: 8%;
+    }
+    .first-writeup > h4 {
+        color: #ff5438;
+        font-size: 2vw;
+        margin-bottom: 1%;
+    }
+    .first-writeup > h1 {
+        font-size: 5vw;
+        font-weight: 700;
+    }
+    .second-write-up {
+        width: 60%;
+        margin-left: 10%;
+        margin-top: 3%;
+        font-weight: 400;
+        font-size: 1.5vw;
+        line-height: 4vh;
+        color: #515151;
+        /* border: 1px solid black; */
+    }
+    .third-writeup {
+        width: 60%;
+        /* border: 1px solid black; */
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+    .third-writeup > h1 {
+        font-weight: 900;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+    .third-writeup > h3 {
+        color: #868686;
+    }
+    .prog-container {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+    }
+    .main-program1 {
+        width: 19.5%;
+        height: 35vh;
+        font-size: 1vw;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1%;
+    }
+    .main-long-write {
+        line-height: 3.5vh;
+    }
+    .main-icon {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-icon > p {
+        color: #ff5438;
+    }
+    .global-summit {
+        display: none;
+    }
+    .desktop-see-prog {
+        display: block;
+        margin-top: 4%;
+        cursor: pointer;
+        color: white;
+    }
+    .speaker2 {
+        display: block;
+    }
+    .more-speakers {
+        display: none;
+    }
+    .desktop-speakers {
+        /* display: grid;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: 1fr 1fr; */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+        /* border: 1px solid black; */
+        width: 80%;
+        height: 90vh;
+        margin: auto;
+        margin-top: 3%;
+        /* flex-wrap: wrap; */
+    }
+    .speaker1 {
+        display: none;
+    }
+    .speaker2 {
+        width: 45%;
+        display: flex;
+        font-size: 1vw;
+        justify-content: space-between;
+        /* border: 1px solid black; */
+    }
+    .speaker2 > h3 {
+        font-size: 1vw;
+    }
+    .speaker2-write {
+        margin-left: 2%;
+        margin-top: 4%;
+    }
+    .speaker2-write > p {
+        color: #ff5438;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .first-footer {
+        display: block;
+    }
+    .second-footer {
+        display: flex;
+    }
+    .second-footer .creative-common {
+        font-size: 1.5vw;
+    }
+
+    /* ABOUT  */
+    .hello-section {
+        width: 60%;
+    }
+    .hello-section > h3 {
+        display: none;
+    }
+    .hello-write {
+        color: white;
+        width: 60vw;
+        padding: 3vh 3vw;
+        background-color: #838383;
+    }
+    .about-logo {
+        width: 45%;
+        margin-left: 30%;
+    }
+    .see-div {
+        display: flex;
+        justify-content: space-between;
+    }
+    .first-global {
+        width: 49%;
+    }
+}
