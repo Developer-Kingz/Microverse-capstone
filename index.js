@@ -1,5 +1,4 @@
 const openMenu = document.getElementById('menu-pop');
-// const closemenu = document.getElementById("menu-close");
 
 function popMenu() {
   openMenu.classList.add('pop-menu-show');

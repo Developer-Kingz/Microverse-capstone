@@ -10,9 +10,28 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@700&family=Roboto:ital,wght@0,100;1,100&display=swap"
+            rel="stylesheet"
+        />
     </head>
 
     <body class="container">
+        <div class="first-header">
+            <div class="face-twitter">
+                <img src="images/Rectangle.svg" alt="" />
+                <img src="images/twitter.svg" alt="" />
+            </div>
+            <div class="first-nav">
+                <ul>
+                    <li>English</li>
+                    <li>My Page</li>
+                    <li>Logout</li>
+                </ul>
+            </div>
+        </div>
         <header class="header">
             <div class="menu-logo">
                 <img
@@ -20,7 +39,6 @@
                     alt=""
                     onclick="popMenu()"
                 />
-                <img src="images/logo.svg" alt="" class="header-logo" />
             </div>
 
             <div class="pop-menu" id="menu-pop">
@@ -159,11 +177,14 @@
 
                 <!-- DESKTOP SPEAKERS -->
                 <div class="desktop-speakers"></div>
-
-                <div class="more-speakers">
-                    More <img src="images/arrow_down 1.svg" alt="" />
+            </div>
+            <div class="more-speakers">
+                <div class="more-inner">
+                    <p>More</p>
+                    <img src="images/arrow_down 1.svg" alt="" />
                 </div>
             </div>
+
             <div class="first-footer">
                 <h2>Partner</h2>
                 <div class="global-line"></div>

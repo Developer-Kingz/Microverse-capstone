@@ -55,7 +55,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Live Demo](https://github.com/Developer-Kingz/Microverse-capstone)
+[Live Demo](https://developer-kingz.github.io/Microverse-capstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,7 +144,7 @@ If you like this project... I encourage to support me by following me on github 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for giving me this opportunity to become a software developer.
+I would like to thank Microverse for giving me this opportunity to become a software developer, and also thank Cindy Shin for putting together this wonderful design which i used as a template to accomplish this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
